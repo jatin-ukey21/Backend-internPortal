@@ -163,15 +163,6 @@ You can find screenshot images inside the `/screenshots/` folder, showing:
 
 ---
 
-## 🚀 Deployment
-
-The backend can be deployed on:
-
-- ✅ **Railway** *(Node-based deployment attempted)*
-- ✅ Or simply provide this GitHub repo if dynamic hosting is not required
-
----
-
 ### 🔗 Frontend Repository
 
 [Link to Frontend Repo](https://github.com/jatin-ukey21/Frontend-internPortal)

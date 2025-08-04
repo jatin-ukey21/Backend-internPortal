@@ -1,8 +1,4 @@
-Here’s a complete, well-structured `README.md` file for your **backend project** — tailored specifically to your Intern Portal assignment, including API details, tech stack, MongoDB usage, and setup instructions.
 
----
-
-````markdown
 # 🚀 Intern Portal Backend
 
 This repository contains the **backend service** for the Intern Portal web application. It provides RESTful APIs that deliver intern data, referral performance, and leaderboard statistics to the frontend.
@@ -33,10 +29,10 @@ This backend handles the following key responsibilities:
 
 ## 🔌 API Endpoints
 
-| Method | Endpoint                     | Description                            |
-|--------|------------------------------|----------------------------------------|
-| `GET`  | `/api/leaderboard`           | Returns all leaderboard entries        |
-| `GET`  | `/api/intern`                | Returns current intern's profile data  |
+| Method | Endpoint              | Description                           |
+|--------|-----------------------|---------------------------------------|
+| `GET`  | `/api/leaderboard`    | Returns all leaderboard entries       |
+| `GET`  | `/api/intern`         | Returns current intern's profile data |
 
 Both endpoints return dummy/static data fetched from MongoDB.
 
@@ -55,7 +51,7 @@ Both endpoints return dummy/static data fetched from MongoDB.
   "donationsRaised": 28500,
   "referrals": 42
 }
-````
+```
 
 ### 📄 InternProfile
 
@@ -105,10 +101,13 @@ cd intern-portal-backend
 
 2. **Set up MongoDB**
 
-* Either install and run MongoDB locally at:
-  `mongodb://localhost:27017/internportal`
+- Either install and run MongoDB locally at:
+  
+  ```bash
+  mongodb://localhost:27017/internportal
+  ```
 
-* Or use **MongoDB Atlas**, and set the URI in:
+- Or use **MongoDB Atlas**, and set the URI in:
 
 ```properties
 # application.properties
@@ -123,10 +122,10 @@ spring.data.mongodb.uri=mongodb+srv://<username>:<password>@cluster.mongodb.net/
 
 4. **Verify endpoints**
 
-* Open browser or Postman:
+- Open browser or Postman:
 
-  * [http://localhost:8080/api/leaderboard](http://localhost:8080/api/leaderboard)
-  * [http://localhost:8080/api/intern](http://localhost:8080/api/intern)
+  - http://localhost:8080/api/leaderboard
+  - http://localhost:8080/api/intern
 
 ---
 
@@ -150,7 +149,6 @@ src/
 │   ├── InternService.java
 │   └── LeaderboardService.java
 └── BackendInternPortalApplication.java
-
 ```
 
 ---
@@ -159,9 +157,9 @@ src/
 
 You can find screenshot images inside the `/screenshots/` folder, showing:
 
-* Successful API calls in Postman
-* MongoDB data inserted (Compass or Atlas)
-* Local server running in IntelliJ or terminal
+- ✅ Successful API calls in Postman
+- ✅ MongoDB data inserted (Compass or Atlas)
+- ✅ Local server running in IntelliJ or terminal
 
 ---
 
@@ -169,8 +167,8 @@ You can find screenshot images inside the `/screenshots/` folder, showing:
 
 The backend can be deployed on:
 
-* ✅ **Railway** *(Node-based deployment attempted)*
-* ✅ Or simply provide this GitHub repo if dynamic hosting is not required
+- ✅ **Railway** *(Node-based deployment attempted)*
+- ✅ Or simply provide this GitHub repo if dynamic hosting is not required
 
 ---
 
@@ -181,10 +179,3 @@ The backend can be deployed on:
 ---
 
 Thank you for reviewing this backend service! ⚙️🔥
-
-```
-
----
-
-Let me know if you want to auto-generate screenshots folder + markdown references too.
-```

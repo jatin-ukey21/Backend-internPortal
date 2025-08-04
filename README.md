@@ -153,16 +153,6 @@ src/
 
 ---
 
-## 📸 Screenshot Proofs
-
-You can find screenshot images inside the `/screenshots/` folder, showing:
-
-- ✅ Successful API calls in Postman
-- ✅ MongoDB data inserted (Compass or Atlas)
-- ✅ Local server running in IntelliJ or terminal
-
----
-
 ### 🔗 Frontend Repository
 
 [Link to Frontend Repo](https://github.com/jatin-ukey21/Frontend-internPortal)

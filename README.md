@@ -95,7 +95,7 @@ Both endpoints return dummy/static data fetched from MongoDB.
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/intern-portal-backend.git
+git clone (https://github.com/jatin-ukey21/Backend-internPortal)
 cd intern-portal-backend
 ```
 
